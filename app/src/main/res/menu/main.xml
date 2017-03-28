@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_open_camera"
+        android:orderInCategory="100"
+        android:title="打开相机"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_open_album"
+        android:orderInCategory="100"
+        android:title="打开相册"
+        app:showAsAction="never" />
+ <!--   <item
+        android:id="@+id/action_save"
+        android:orderInCategory="100"
+        android:title="保存图片"
+        app:showAsAction="never" />-->
+</menu>
